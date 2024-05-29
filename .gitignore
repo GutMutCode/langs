@@ -1,0 +1,16 @@
+build/
+_build/
+
+.DS_Store
+
+# clangd
+.cache/
+
+# bins
+bin/
+
+# zig
+zig-cache/
+
+# Images
+**/*.png

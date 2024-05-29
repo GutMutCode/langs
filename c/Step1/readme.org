@@ -1,0 +1,21 @@
+* 자료구조
+  자료를 구조화 한다 
+  DB 만드는 기술
+
+* ADT
+  Abstract Data Type - Generic
+  - 자료와 구조를 분리하는 것
+
+** Node - Record
+   search by ~key~ (name)
+   - key always changes
+     function pointer -> function address
+
+** Where should i place the function pointer?
+   1. In the ~Node struct~
+      - all nodes have a function pointer
+      - User gives a function pointer to 
+
+   2. In the ~User struct~
+
+

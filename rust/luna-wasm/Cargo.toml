@@ -1,0 +1,19 @@
+[package]
+name = "luna-wasm"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lunatic = { version = "0.14.1", features = ["json_serializer"] }
+serde = "1.0.186"
+submillisecond = "0.4.1"
+submillisecond-live-view = "0.4.1"
+
+# [dev-dependencies]
+chrono = { version = "0.4", features = ["serde"] }
+chrono-tz = { version = "0.8", features = ["serde"] }
+
+[package.metadata.docs.rs]
+targets = ["wasm32-wasi"]
